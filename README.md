@@ -87,5 +87,18 @@ R2 = 60.0 ohm
 Potencia nominal de R1 = 0.5 W
 Potencia nominal de R2 = 1 W
 
+---
+
+4. Simulación con PySpice / Ngspice (`punto5_pyspice.py`)
+
+Este script utiliza la librería PySpice para definir mediante código la netlist del circuito divisor de tensión resistivo. Configura una fuente de voltaje continua (Vin) y dos resistencias en serie (R1 y R2) conectadas al nodo de tierra (gnd). Ejecuta una simulación de punto de operación DC para obtener los voltajes nodales y la corriente de rama calculada por Ngspice.
+
+V1 in 0 DC 10
+R1 in out 100
+
+.op
+
+.end
+
 
 
