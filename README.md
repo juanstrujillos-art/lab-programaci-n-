@@ -72,3 +72,20 @@ R1 máximo = 30000.0 ohm
 R2 mínimo = 20000.0 ohm
 R2 máximo = 40000.0 ohm
 
+3. Funciones (`punto4_funciones_grupo.py` y `punto4_funciones_ia.py`)
+
+Este programa modulariza la solución del problema mediante el uso de funciones. Implementa funciones específicas para la lectura de datos con validación, el cálculo numérico de las resistencias R1 y R2 a partir de un arreglo de voltajes de salida (Vout) con Vin fijo en 5V e I en 100uA, y la impresión organizada de los resultados.
+
+Caso de prueba:
+Ingrese el voltaje de entada: 10
+Ingrese la corriente: 0.1
+Ingrese el voltaje de salida Vout (V): 6
+
+Resultados:
+R1 = 40.0 ohm
+R2 = 60.0 ohm
+Potencia nominal de R1 = 0.5 W
+Potencia nominal de R2 = 1 W
+
+
+
